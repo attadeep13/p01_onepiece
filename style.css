@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right,#f30c0cac 30%,#795858c2), url(img/bg_img.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 92%;
+    height: 560px;
+    background-image: linear-gradient(to right, #570404ac 30%, #363535c2),
+    url(img/bg_img.jpg);
+    background-size: cover;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+.container:hover{
+    background-image: linear-gradient(to right, #570404ac 30%, #514c4cc2), url(img/bg_img.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo h2:hover{
+    color: red;
+    cursor: pointer;
+}
+
+ul{
+    width: 240%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+ul a:hover{
+    color: red;
+    cursor: pointer;
+    border-bottom: 2px solid red;
+}
+
+.main{
+    color: white;
+    margin-left: 30px;    
+    margin-top: 60px;
+}
+
+.main h2{
+    font-size: 70px;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 18px 0px;
+}
+
+button{
+    color: #fff;
+    font-size: 25px;
+    border: 0px solid rgb(108, 104, 104);
+    border-radius: 10px;
+    background-color: rgb(73, 69, 69);
+    padding: 6px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+    font-weight: 500;
+    background-color: rgb(232, 70, 70);
+    border-color: rgb(232, 70, 70);
+
+}
