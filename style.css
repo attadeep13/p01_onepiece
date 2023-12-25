@@ -14,11 +14,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .container{
-    width: 92%;
+    max-width: 95%;
     height: 560px;
     background-image: linear-gradient(to right, #570404ac 30%, #363535c2),
     url(img/bg_img.jpg);
@@ -33,7 +32,7 @@ body {
 }
 
 header{
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,9 +40,11 @@ header{
 }
 
 .logo h2{
+    width: 110%;
     color: #fff;
     font-size: 30px;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 
 .logo h2:hover{
@@ -52,12 +53,12 @@ header{
 }
 
 ul{
-    width: 240%;
+    width: 250%;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    margin-right: 20px;
 }
 
 ul a{
@@ -65,7 +66,8 @@ ul a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-inline: 5px;
 }
 
 ul a:hover{
@@ -85,7 +87,7 @@ ul a:hover{
 }
 
 .content{
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,5 +113,60 @@ button:hover{
     font-weight: 500;
     background-color: rgb(232, 70, 70);
     border-color: rgb(232, 70, 70);
-
 }
+
+.footer{
+    font-size: 80%;
+    width: 100%;
+    height: 28px;
+    color: white;
+    background-color: none;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pirates page styling */
+.pirates_container{
+    max-width: 95%;
+    height: 560px;
+    background-image: linear-gradient(to right, #570404ac 30%, #363535c2),
+    url(img/pirate_img2.jpg);
+    background-size: cover;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+.pirates_container:hover{
+    background-image: linear-gradient(to right, #290202ac 30%, #5a5555c2),
+    url(img/pirate_img2.jpg);
+}
+
+.pirates_main{
+    color: white;
+    margin-left: 30px;    
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pirates_main h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.pirates_content{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 15px 0px 18px 0px;
+    flex-direction: column;
+}
+
+
+
+
